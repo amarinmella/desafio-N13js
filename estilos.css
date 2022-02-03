@@ -1,0 +1,14 @@
+.caja {
+    width: 150px;
+    height: 150px;
+    background: #FF9900;
+}
+
+@keyframes colores {
+    from{background:#FF9900;}
+    to{background: #424242;}
+}
+
+.animacion{
+    animation:colores 3s ease;
+}
